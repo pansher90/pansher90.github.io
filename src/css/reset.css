@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,*:before, *:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav, footer, header, aside{display: block;}
+
+html, body{
+height:100%;
+width:100%;
+font-size 100%;
+line-height: 1;
+font-size:14px;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea{font-family: inherit;
+} 
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;} 
+button::-moz-focus-inner{padding: 0; border:0;} 
+a, a:visited{text-decoration: none; color: black;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;} 
+img{vertical-align: top;}
+
+
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+
+.header{
+    width: 1920px;
+    height: 60px;
+    background: #344051;
+    font-family: Montserrat;
+    
+     
+}
+
+.logo{
+    color: white;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+}
+
+.menu{
+    float: left;
+    padding-left: 430px;
+   
+}
+
+.menu li{
+    float: left;
+    color: white;
+    font-size: 20px;
+    line-height: 60px;
+    margin-right: 40px;
+    text-transform: uppercase;
+    
+    
+}
+
+.intro{
+    width: 100%;
+    height: 100%;
+    height: calc(100%-60px);
+    
+ background : url(../Img/%D0%9F%D0%B0%D1%80%D0%B5%D0%BD%D1%8C.png) 90% 100%/auto 85% no-repeat ,url(../Img/%D1%84%D0%BE%D0%BD.png)center/cover no-repeat ;
+    
+}
+
+.container{
+    font-family: Franklin Gothic Medium;
+    float: left;
+    text-align: center;
+    padding-left: 404px;
+    padding-top: 441px;
+    color: #344051;
+}
+
+.intro__title{
+    font-size: 60px;
+}
+
+.intro__suptitle{
+    font-size: 19px;
+    line-height: 5;
+    color: #79818d;
+    opacity: .7;
+}
+
+.btn{ 
+  
+  display: inline-block;
+    vertical-align: top;
+    padding:10px 20px; 
+    border: 1px solid #344051;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 60px ;
+    border-radius: 5px;
+    box-shadow: 0 0 5px ;
+    margin: 58px 14px;
+    
+    transition: background .1s linear,color .1s linear;
+    
+}
+
+
+.btn:hover{
+    background-color: #344051;
+    color: #fff; 
+}
+
+/*Siction*/
+
+.section__suptitle{
+    font-family: Franklin Gothic Medium;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #263244;
+    text-align: center;
+    font-weight: 700;
+}
+/*Полоска*/
+.section__suptitle:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 30px auto;
+    background-color: #d17700;
+}
+
+.section__suptitle{
+    background: url(../Img/%D1%84%D0%BE%D1%82%D0%BA%D0%B0%20boy.png)center no-repeat;
+    ;
+    
+    
+}
+
+.section__text{
+    font-family: Calibri;
+    font-size: 14px;
+    color: #263244;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
