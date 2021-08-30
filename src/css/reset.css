@@ -114,8 +114,12 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     font-family: Franklin Gothic Medium;
     float: left;
     text-align: center;
-    margin: 430px 0px 0px 404px;
     color: #344051;
+    
+}
+
+.intro__inner{
+    margin: 430px 0px 0px 404px;
     opacity: 0;
     -webkit-animation:titlemove 1s ease forwards;
     -o-animation:titlemove 1s ease forwards;
@@ -123,7 +127,9 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     -webkit-animation-delay:2.5s;
     -o-animation-delay:2,5s;
     animation-delay:2,5s;
+    
 }
+
 
 .intro__title{
     font-size: 60px;
@@ -138,7 +144,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 /*Кнопка*/
 .btn{ 
   
-  display: inline-block;
+    display:inline-block;
     vertical-align: top;
     padding:10px 20px; 
     border: 1px solid #344051;
@@ -150,20 +156,20 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     box-shadow: 0 0 5px ;
     margin: 58px 14px;
     transition: background .1s linear,color .1s linear;
+    transition-duration: 0.5s;
     
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #344051;
     color: #fff; 
     transform: scale(1.1);
 }
 
+
 .intro__inner a:active{
     transform: scale(1)
 }
-
-
 
 
 @keyframes comming{
@@ -211,17 +217,29 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
         opacity: 1;
         margin-left: 404px;
     }
-
-
+ 
 /*Следующая страница*/
 
     
+.section{
+    width: 100%;
+    height: 100%;
+}    
+    
+    .section__suptitle{
+        font-size: 25px;
+        line-height: 1.5px;
+    }
 
 
-
-
-
-
+    .section__suptitle:after{
+        content: "";
+        display: block;
+        width: 30px;
+        margin:20px auto;
+        height: 2px;
+        
+    }
 
 
 
