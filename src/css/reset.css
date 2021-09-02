@@ -26,7 +26,7 @@ font-size:14px;
 -webkit-text-size-adjust: 100%;
 }
 
-input, button, textarea{font-family: inherit;
+input, button, textarea{font-family: Franklin Gothic;
 } 
 
 input::-ms-clear{display: none;}
@@ -44,7 +44,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     width: 1920px;
     height: 60px;
     background: #344051;
-    font-family: Montserrat;
+    font-family: Franklin Gothic;
     position:fixed;
     
      
@@ -74,6 +74,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     line-height: 60px;
     margin-right: 40px;
     text-transform: uppercase;
+    font-family: Franklin Gothic;
     -webkit-animation: topshift 0.4s ease forwards;
     -o-animation:topshift 0.4s ease forwards;
     animation:topshift 0.4s ease forwards;
@@ -111,10 +112,11 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 
 .container{
-    font-family: Franklin Gothic Medium;
+    font-family: Franklin Gothic;
     float: left;
     text-align: center;
     color: #344051;
+    
     
 }
 
@@ -157,6 +159,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     margin: 58px 14px;
     transition: background .1s linear,color .1s linear;
     transition-duration: 0.5s;
+    font-family: Franklin Gothic;
     
 }
 
@@ -217,38 +220,279 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
         opacity: 1;
         margin-left: 404px;
     }
- 
+}
 /*Следующая страница*/
 
-    
-.section{
+.container__2{
+    text-align: center;
+}
+.aside__header{
+    text-align:center;
     width: 100%;
-    height: 100%;
-}    
+    max-width: 735px;
+    margin: 0 auto 40px;
     
-    .section__suptitle{
-        font-size: 25px;
-        line-height: 1.5px;
-    }
+}
+ /*Обо мне*/   
+.aside__suptitle{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Franklin Gothic;
+    margin-top: 105px;
+ }
 
 
-    .section__suptitle:after{
-        content: "";
-        display: block;
-        width: 30px;
-        margin:20px auto;
-        height: 2px;
+.aside__text{
+    text-align: left;
+    font-family: Calibri;
+    margin-top: 25px;
+    color: #a8acb2;
+    font-size: 14px;
+}
+.aside__text p{
+    margin-bottom: 40px;
+}
+
+
+.aside__suptitle:after{
+    content: "";
+    display: block;
+    width:  70px;
+    margin: 30px auto 60px;
+    height: 4px;
+    background-color: #d17700;
         
-    }
+ }
 
 
+/* Кнопка "Скачать резюме"*/
+
+.button{
+    display:inline-block;
+    vertical-align: top;
+    padding:10px 20px 10px 35px; 
+    border: 2px solid #344051;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: Franklin Gothic;
+    font-weight:300;
+    color: #6f707e;
+    background:transparent  url(../Img/%D0%B8%D0%BA%D0%BE%D0%BD%D0%BA%D0%B0.png)no-repeat left;
+    transition: 0.5s;
+    transition: background .1s linear,color .1s linear;
+    transition-duration: 0.5s;
+    
+}
+
+.button:hover{
+    box-shadow: 2px 2px 5px;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
 
 
+/*Блок "Что я умею"*/
+
+.container__3{
+    text-align: center;
+    background: url(../Img/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%84%D0%BE%D0%BD%D0%B0.png)center/cover no-repeat;
+    height: 425px;
+}
+.title{
+   font-size: 30px;
+    text-transform: uppercase;
+    font-family: Franklin Gothic; 
+    color: #344051;
+    margin-top: 200px;
+}
+
+.title:after{
+    content: "";
+    display: block;
+    width:  70px;
+    margin: 30px auto 100px;
+    height: 4px;
+    background-color: #d17700;
+}
+    
+
+.features{
+    display: inline-block;
+}
+/*Веб-дизайн*/
+.box_1{
+    text-align:center;
+    border: 2px ;
+    width: 200px;
+    float: left;
+    margin:0 20px 0;
+    
+}
+
+.text_box{
+    font-family: Bahnschrift;
+    font-size: 16px;
+    color: #cf7600;
+    margin: 20px auto 40px;
+    
+}
 
 
+.p{
+    font-family: Calibri;
+    font-size: 14px;
+    color: #b2b5bc;
+    
+}
+
+/*Разработка*/ 
+.box_2{
+    text-align:center;
+    border: 2px ;
+    width: 200px;
+    float: left;
+    margin:0 20px 0;
+}
+
+.text_box2{
+    font-family: Bahnschrift;
+    font-size: 16px;
+    color: #cf7600;
+    margin: 20px auto 40px;
+    
+}
 
 
+.p{
+    font-family: Calibri;
+    font-size: 14px;
+    color: #b2b5bc;
+}
 
+/*СЕО-Оптимизация*/
+.box_3{
+    text-align:center;
+    border: 2px ;
+    width: 200px;
+    float:left;
+    margin:0 20px 0;
+}
+
+.text_box3{
+    font-family: Bahnschrift;
+    font-size: 16px;
+    color: #cf7600;
+    margin: 20px auto 40px;
+    
+}
+
+
+.p{
+    font-family: Calibri;
+    font-size: 14px;
+    color: #b2b5bc;
+}
+
+/*Маркетинг*/
+
+.box_4{
+    text-align:center;
+    border: 2px ;
+    width: 200px;
+    float: left;
+    margin:0 20px 0;
+}
+
+.text_box4{
+    font-family: Bahnschrift;
+    font-size: 16px;
+    color: #cf7600;
+    margin: 20px auto 40px;
+    
+    
+}
+
+
+.p{
+    font-family: Calibri;
+    font-size: 14px;
+    color: #b2b5bc;
+}
+
+/*Кейсы*/
+
+
+.container__4{
+    text-align: center;
+    
+    
+}
+
+.subject{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Franklin Gothic; 
+    color: #344051;
+    margin-top: 100px;
+    
+}
+
+.subject:after{
+    content: "";
+    display: block;
+    width:  70px;
+    margin: 30px auto 37px;
+    height: 4px;
+    background-color: #d17700;
+}
+
+.text{
+    font-family: Calibri;
+    color: #a8acb2;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+
+.Client_title{
+    float: left;
+   
+}
+.CLIENT,.WEBSITE{
+    text-align: left;
+    color: #384354;
+    margin: 0 0 15px 388px ;
+    
+}
+.h_4{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Franklin Gothic;
+}
+.p_1{
+    font-family: Calibri;
+    font-size: 16px;
+}
+
+
+/*Название проекта*/
+.heading{
+    text-align: left;
+    color: #384354;
+    margin-left: 672px;
+    width: 848px;
+    
+}
+
+.heading_title{
+    font-size: 20px;
+    font-family: Franklin Gothic;
+}
+
+.heading_text{
+    font-size: 16px;
+    font-family: Calibri;
+}
 
 
 
